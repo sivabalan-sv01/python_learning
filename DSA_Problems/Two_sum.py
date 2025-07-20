@@ -13,4 +13,4 @@ def twoSum (nums, target ):
         comp= target - num
         if comp in num_map:
             return [num_map(comp),i]
-        num_map(comp)=i
+        num_map[comp]=i
